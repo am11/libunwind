@@ -376,6 +376,19 @@ struct unw_debug_frame_list
     struct unw_debug_frame_list *next;
   };
 
+struct dwarf_callback_data
+  {
+    /* in: */
+    unw_word_t ip;		/* instruction-pointer we're looking for */
+    int need_unwind_info;
+    void *arg;
+    /* out: */
+    unw_word_t fde_addr;
+    unw_word_t fde_base;
+    unw_word_t ip_offset;
+    unw_word_t gp;
+  };
+
 /* Convenience macros: */
 #define dwarf_init                      UNW_ARCH_OBJ (dwarf_init)
 #define dwarf_callback                  UNW_OBJ (dwarf_callback)
@@ -442,7 +455,8 @@ extern int dwarf_read_encoded_pointer (unw_addr_space_t as,
                                        unw_accessors_t *a,
                                        unw_word_t *addr,
                                        unsigned char encoding,
-                                       const unw_proc_info_t *pi,
+                                       unw_word_t gp,
+                                       unw_word_t start_ip,
                                        unw_word_t *valp, void *arg);
 extern int dwarf_step (struct dwarf_cursor *c);
 extern int dwarf_flush_rs_cache (struct dwarf_rs_cache *cache);

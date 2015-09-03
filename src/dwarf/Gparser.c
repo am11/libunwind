@@ -240,7 +240,7 @@ run_cfi_program (struct dwarf_cursor *c, dwarf_state_record_t *sr,
 
         case DW_CFA_set_loc:
           if ((ret = dwarf_read_encoded_pointer (as, a, addr, dci->fde_encoding,
-                                                 &c->pi, ip,
+                                                 c->pi.gp, c->pi.start_ip, ip,
                                                  arg)) < 0)
             break;
           Debug (15, "CFA_set_loc to 0x%lx\n", (long) *ip);
