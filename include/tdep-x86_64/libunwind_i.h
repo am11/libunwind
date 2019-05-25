@@ -252,7 +252,7 @@ extern int tdep_access_reg (struct cursor *c, unw_regnum_t reg,
                             unw_word_t *valp, int write);
 extern int tdep_access_fpreg (struct cursor *c, unw_regnum_t reg,
                               unw_fpreg_t *valp, int write);
-#if __linux__
+#if defined(__linux__) || defined(__sun)
 extern void tdep_fetch_frame (struct dwarf_cursor *c, unw_word_t ip,
                               int need_unwind_info);
 extern int tdep_cache_frame (struct dwarf_cursor *c);
