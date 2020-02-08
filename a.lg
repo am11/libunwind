@@ -1,0 +1,1095 @@
+=============================================
+   libunwind 1.4-rc1: tests/test-suite.log
+=============================================
+
+# TOTAL: 33
+# PASS:  13
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  20
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: Gtest-bt
+==============
+
+FAILURE: detected 2 errors
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAIL Gtest-bt (exit status: 255)
+
+FAIL: Ltest-bt
+==============
+
+FAILURE: detected 2 errors
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAIL Ltest-bt (exit status: 255)
+
+FAIL: Gtest-init
+================
+
+FAILURE: unw_step() returned -3
+FAILURE: unw_step() returned -3
+FAIL Gtest-init (exit status: 262)
+
+FAIL: Ltest-init
+================
+
+FAILURE: unw_step() returned -3
+FAILURE: unw_step() returned -3
+FAIL Ltest-init (exit status: 262)
+
+FAIL: Gtest-concurrent
+======================
+
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+FAILURE: detected 384 errors
+FAIL Gtest-concurrent (exit status: 255)
+
+FAIL: Ltest-concurrent
+======================
+
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+unw_step() returned -3
+FAILURE: detected 384 errors
+FAIL Ltest-concurrent (exit status: 255)
+
+FAIL: Gtest-resume-sig
+======================
+
+*** libc thread failure: call_user_handler(): setcontext() returned
+FAIL Gtest-resume-sig (exit status: 262)
+
+FAIL: Ltest-resume-sig
+======================
+
+*** libc thread failure: call_user_handler(): setcontext() returned
+FAIL Ltest-resume-sig (exit status: 262)
+
+FAIL: Gtest-resume-sig-rt
+=========================
+
+*** libc thread failure: call_user_handler(): setcontext() returned
+FAIL Gtest-resume-sig-rt (exit status: 262)
+
+FAIL: Ltest-resume-sig-rt
+=========================
+
+*** libc thread failure: call_user_handler(): setcontext() returned
+FAIL Ltest-resume-sig-rt (exit status: 262)
+
+FAIL: Gtest-trace
+=================
+
+FAILURE: detected 8 errors
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 5 vs. 5
+FAILURE: unw_step() loop and backtrace() depths differ: 5 vs. 5
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 8 vs. 8
+FAILURE: unw_step() loop and backtrace() depths differ: 8 vs. 8
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 5 vs. 8
+FAILURE: unw_step() loop and backtrace() depths differ: 5 vs. 8
+FAIL Gtest-trace (exit status: 255)
+
+FAIL: Ltest-trace
+=================
+
+FAILURE: detected 8 errors
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 5 vs. 5
+FAILURE: unw_step() loop and backtrace() depths differ: 5 vs. 5
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 8 vs. 8
+FAILURE: unw_step() loop and backtrace() depths differ: 8 vs. 8
+FAILURE: unw_step() loop and unw_backtrace() depths differ: 5 vs. 8
+FAILURE: unw_step() loop and backtrace() depths differ: 5 vs. 8
+FAIL Ltest-trace (exit status: 255)
+
+FAIL: Ltest-init-local-signal
+=============================
+
+unw_getcontext steps was 8, ucontext steps was 5, should be 6
+FAIL Ltest-init-local-signal (exit status: 255)
+
+FAIL: test-async-sig
+====================
+
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+FAILURE: unw_step() returned -3 for ip=0
+Too many errors (101)
+FAIL test-async-sig (exit status: 255)
+
+FAIL: test-init-remote
+======================
+
+FAILURE: unw_step() returned -3 for ip=0
+FAIL test-init-remote (exit status: 255)
+
+FAIL: test-mem
+==============
+
+FAILURE: unw_step() returned -3 for ip=0
+FAIL test-mem (exit status: 255)
+
+FAIL: Ltest-nomalloc
+====================
+
+FAILURE: detected 1 errors
+FAIL Ltest-nomalloc (exit status: 255)
+
+FAIL: test-setjmp
+=================
+
+FAIL test-setjmp (exit status: 262)
+
+FAIL: x64-unwind-badjmp-signal-frame
+====================================
+
+Failed to find all frames i:0 != names_count:2
+FAIL x64-unwind-badjmp-signal-frame (exit status: 1)
+
+FAIL: run-check-namespace
+=========================
+
+nm: -e or -g set, -u ignored
+grep: RE error in : invalid regular expression
+  ERROR: Symbol "_ULx86_64_apply_reg_state" missing.
+  ERROR: Symbol "_ULx86_64_reg_states_iterate" missing.
+  ERROR: Symbol "_ULx86_64_create_addr_space" missing.
+  ERROR: Symbol "_ULx86_64_destroy_addr_space" missing.
+  ERROR: Symbol "_ULx86_64_get_fpreg" missing.
+  ERROR: Symbol "_ULx86_64_get_proc_info" missing.
+  ERROR: Symbol "_ULx86_64_get_proc_info_by_ip" missing.
+  ERROR: Symbol "_ULx86_64_get_proc_name" missing.
+  ERROR: Symbol "_ULx86_64_get_reg" missing.
+  ERROR: Symbol "_ULx86_64_get_save_loc" missing.
+  ERROR: Symbol "_ULx86_64_init_local" missing.
+  ERROR: Symbol "_ULx86_64_init_local2" missing.
+  ERROR: Symbol "_ULx86_64_init_remote" missing.
+  ERROR: Symbol "_ULx86_64_is_signal_frame" missing.
+  ERROR: Symbol "_ULx86_64_local_addr_space" missing.
+  ERROR: Symbol "_ULx86_64_resume" missing.
+  ERROR: Symbol "_ULx86_64_set_caching_policy" missing.
+  ERROR: Symbol "_ULx86_64_set_cache_size" missing.
+  ERROR: Symbol "_ULx86_64_set_reg" missing.
+  ERROR: Symbol "_ULx86_64_set_fpreg" missing.
+  ERROR: Symbol "_ULx86_64_step" missing.
+  ERROR: Symbol "_Ux86_64_flush_cache" missing.
+  ERROR: Symbol "_Ux86_64_get_accessors" missing.
+  ERROR: Symbol "_Ux86_64_getcontext" missing.
+  ERROR: Symbol "_Ux86_64_regname" missing.
+  ERROR: Symbol "_Ux86_64_strerror" missing.
+  ERROR: Symbol "_U_dyn_cancel" missing.
+  ERROR: Symbol "_U_dyn_info_list_addr" missing.
+  ERROR: Symbol "_U_dyn_register" missing.
+  ERROR: Symbol "unw_backtrace" missing.
+  ERROR: Symbol "backtrace" missing.
+  ERROR: Symbol "_Ux86_64_get_elf_image" missing.
+  ERROR: Symbol "_Ux86_64_get_exe_image_path" missing.
+  ERROR: Symbol "_Ux86_64_is_fpreg" missing.
+  ERROR: Symbol "_ULx86_64_dwarf_search_unwind_table" missing.
+  ERROR: Symbol "_ULx86_64_dwarf_find_unwind_table" missing.
+  ERROR: Symbol "_Ux86_64_setcontext" missing.
+nm: -e or -g set, -u ignored
+grep: RE error in : invalid regular expression
+  ERROR: Symbol "_Ux86_64_apply_reg_state" missing.
+  ERROR: Symbol "_Ux86_64_reg_states_iterate" missing.
+  ERROR: Symbol "_Ux86_64_create_addr_space" missing.
+  ERROR: Symbol "_Ux86_64_destroy_addr_space" missing.
+  ERROR: Symbol "_Ux86_64_flush_cache" missing.
+  ERROR: Symbol "_Ux86_64_get_accessors" missing.
+  ERROR: Symbol "_Ux86_64_get_fpreg" missing.
+  ERROR: Symbol "_Ux86_64_get_proc_info" missing.
+  ERROR: Symbol "_Ux86_64_get_proc_info_by_ip" missing.
+  ERROR: Symbol "_Ux86_64_get_proc_name" missing.
+  ERROR: Symbol "_Ux86_64_get_reg" missing.
+  ERROR: Symbol "_Ux86_64_get_save_loc" missing.
+  ERROR: Symbol "_Ux86_64_init_local" missing.
+  ERROR: Symbol "_Ux86_64_init_local2" missing.
+  ERROR: Symbol "_Ux86_64_init_remote" missing.
+  ERROR: Symbol "_Ux86_64_is_signal_frame" missing.
+  ERROR: Symbol "_Ux86_64_local_addr_space" missing.
+  ERROR: Symbol "_Ux86_64_regname" missing.
+  ERROR: Symbol "_Ux86_64_resume" missing.
+  ERROR: Symbol "_Ux86_64_set_caching_policy" missing.
+  ERROR: Symbol "_Ux86_64_set_cache_size" missing.
+  ERROR: Symbol "_Ux86_64_set_fpreg" missing.
+  ERROR: Symbol "_Ux86_64_set_reg" missing.
+  ERROR: Symbol "_Ux86_64_step" missing.
+  ERROR: Symbol "_Ux86_64_strerror" missing.
+  ERROR: Symbol "_Ux86_64_get_elf_image" missing.
+  ERROR: Symbol "_Ux86_64_get_exe_image_path" missing.
+  ERROR: Symbol "_Ux86_64_is_fpreg" missing.
+  ERROR: Symbol "_Ux86_64_dwarf_search_unwind_table" missing.
+  ERROR: Symbol "_Ux86_64_dwarf_find_unwind_table" missing.
+FAILURE: Detected 67 errors
+FAIL run-check-namespace (exit status: 1)
+
