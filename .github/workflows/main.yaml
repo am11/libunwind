@@ -1,0 +1,68 @@
+name: Main CI
+
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
+    tags: '*'
+
+jobs:
+  build-and-check:
+    runs-on: ${{matrix.OS}}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - TARGET: x86_64-linux-gnu
+          OS: ubuntu-latest
+        - TARGET: x86-linux-gnu
+          OS: ubuntu-latest
+        - TARGET: arm-linux-gnueabihf
+          OS: ubuntu-latest
+        - TARGET: aarch64-linux-gnu
+          OS: ubuntu-latest
+        - TARGET: mipsel-unknown-linux-gnu
+          OS: ubuntu-latest
+        # Currently experiencing build failures here
+        #- TARGET: powerpc64-linux-gnu
+        #  OS: ubuntu-latest
+        - TARGET: s390x-linux-gnu
+          OS: ubuntu-latest
+        - TARGET: x86_64-linux-gnu
+          HOST: x64
+          OS: windows-latest
+        - TARGET: arm-linux-gnueabihf
+          HOST: Win32
+          OS: windows-latest
+        - TARGET: aarch64-linux-gnu
+          HOST: x64
+          OS: windows-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Ubuntu
+        if: matrix.OS == 'ubuntu-latest'
+        run: |
+          ./autogen.sh
+          ./configure --target=$TARGET
+          make -j32
+          if [ $TARGET != 's390x-linux-gnu' ]; then
+            sudo bash -c 'echo core.%p.%p > /proc/sys/kernel/core_pattern'
+          fi
+          ulimit -c unlimited
+          if [ $TARGET == 'x86_64-linux-gnu' ] || [ $TARGET == 's390x-linux-gnu' ]; then
+            make check -j32
+          fi
+        env:
+          HOST: ${{ matrix.HOST }}
+          TARGET: ${{ matrix.TARGET }}
+      - name: Windows
+        if: matrix.OS == 'windows-latest'
+        run: |
+          $destination = "bin/windows-$env:HOST/$env:TARGET"
+          cmake -G "Visual Studio 16 2019" -A $env:HOST -S . -B $destination
+          cmake --build $destination
+        env:
+          HOST: ${{ matrix.HOST }}
+          TARGET: ${{ matrix.TARGET }}
